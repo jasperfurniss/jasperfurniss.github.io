@@ -1,0 +1,139 @@
+@import "settings";
+@import "foundation";
+/* @import "foundation/components/block-grid";
+ */
+
+$primaryfont: 'Droid Sans', sans-serif;
+
+body {
+/*   font-family: $primaryfont; */
+  font-size: 1em;
+  font-weight: 100;
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+
+}
+
+.header {
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+  opacity: .9;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: 100;
+}
+
+.parallax-background {
+  background: url(../images/crosandme.JPG);
+  height: 640px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.intro-text {
+  color: #fff;
+  text-align: right;
+  margin-top: 15%;
+  margin-right: 75px;
+  margin-top: 30px;
+  font-size: 5em;
+}
+
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  top: 550px;
+  padding: 0px;
+  background-color: #fff;
+}
+
+.icons {
+  font-size: 2em;
+  padding-right: 75px;
+  color: gray;
+  text-decoration: none;
+  font-style: none;
+  font-family: 'mfg_labs_iconsetregular';
+}
+
+.iconset {
+  float: right;
+  padding: 1%;
+}
+
+.build-container {
+  text-align: center;
+  padding: 55px;
+}
+
+.build-header {
+  font-size: 5em;
+}
+
+.expertise-images {
+  height: 50%;
+  width: 50%;
+  opacity: .75;
+  margin-top: 50%;
+}
+
+.medium-block-grid-4 {
+  text-align: center;
+}
+
+em, i {
+  font-style: none;
+}
+
+.figcaption>h2 {
+  font-size: 1em;
+}
+
+.expert-container {
+  text-align: center;
+  padding: 100px;
+  padding-top: 250px;
+}
+
+.icon-links {
+  float: right;
+}
+
+.fade {
+/* background: rgba(221, 176, 82, .5);
+ -moz-transition: background .5s ease-out;
+  -webkit-transition: background .5s ease-out;
+  transition: background .5s ease-out; */
+
+  }
+
+.fade:hover {
+/*   background: rgba(221, 176, 82, .5); */
+/*   opacity: .3; */
+}
+
+.great {
+  color: #ddb052;
+}
+
+i:hover {
+  color: #ddb052;
+}
