@@ -191,3 +191,8 @@ section {
 		display: none;
 	}
 }
+
+.span-fix {
+  left: -9px;
+  position: relative;
+}
