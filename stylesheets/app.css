@@ -8520,10 +8520,10 @@ h1 {
 
 /* line 91, ../scss/app.scss */
 .expertise-images {
-  height: 50%;
-  width: 30%;
   opacity: .75;
-  margin-top: 50%;
+  margin-top: 13%;
+  width: 30%;
+  height: 50%;
 }
 
 /* line 98, ../scss/app.scss */
@@ -8544,8 +8544,8 @@ em, i {
 /* line 110, ../scss/app.scss */
 .expert-container {
   text-align: center;
-  padding: 100px;
-  padding-top: 250px;
+  padding: 0px;
+  padding-top: 40px;
 }
 
 /* line 116, ../scss/app.scss */
