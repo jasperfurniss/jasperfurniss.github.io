@@ -8425,23 +8425,23 @@ th.hide-for-touch {
 }
 /* @import "foundation/components/block-grid";
  */
-/* line 8, ../scss/app.scss */
+/* line 6, ../scss/app.scss */
 body {
   /*   font-family: $primaryfont; */
+  margin: 0;
   font-size: 1em;
   font-weight: 100;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
   background-color: #fff;
 }
 
-/* line 17, ../scss/app.scss */
+/* line 14, ../scss/app.scss */
 li {
   list-style: none;
   display: inline-block;
 }
 
-/* line 23, ../scss/app.scss */
+/* line 18, ../scss/app.scss */
 .header {
   overflow: hidden;
   height: 100px;
@@ -8449,18 +8449,18 @@ li {
   position: fixed;
   z-index: 1;
   background-color: #fff;
-  opacity: .9;
+  opacity: 0.9;
   padding: 10px;
 }
 
-/* line 34, ../scss/app.scss */
+/* line 28, ../scss/app.scss */
 h1 {
   font-weight: 100;
 }
 
-/* line 38, ../scss/app.scss */
+/* line 31, ../scss/app.scss */
 .parallax-background {
-  background: url(../images/crosandme.JPG);
+  background: url("../images/crosandme.JPG") fixed;
   height: 640px;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -8472,7 +8472,7 @@ h1 {
   margin-top: 100px;
 }
 
-/* line 51, ../scss/app.scss */
+/* line 43, ../scss/app.scss */
 .intro-text {
   color: #fff;
   text-align: right;
@@ -8482,16 +8482,16 @@ h1 {
   font-size: 5em;
 }
 
-/* line 60, ../scss/app.scss */
+/* line 51, ../scss/app.scss */
 .parallax-content {
   max-width: 100%;
   position: relative;
   top: 550px;
-  padding: 0px;
+  padding: 0;
   background-color: #fff;
 }
 
-/* line 68, ../scss/app.scss */
+/* line 58, ../scss/app.scss */
 .icons {
   font-size: 2em;
   padding-right: 75px;
@@ -8501,78 +8501,227 @@ h1 {
   font-family: 'mfg_labs_iconsetregular';
 }
 
-/* line 77, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .iconset {
   float: right;
   padding: 1%;
 }
 
-/* line 82, ../scss/app.scss */
+/* line 70, ../scss/app.scss */
 .build-container {
   text-align: center;
   padding: 55px;
 }
 
-/* line 87, ../scss/app.scss */
+/* line 74, ../scss/app.scss */
 .build-header {
   font-size: 5em;
 }
 
-/* line 91, ../scss/app.scss */
+/* line 77, ../scss/app.scss */
 .expertise-images {
-  opacity: .75;
+  opacity: 0.75;
   margin-top: 13%;
   width: 30%;
   height: 50%;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 83, ../scss/app.scss */
 .medium-block-grid-4 {
   text-align: center;
 }
 
-/* line 102, ../scss/app.scss */
-em, i {
+/* line 86, ../scss/app.scss */
+em,
+i {
   font-style: none;
 }
 
-/* line 106, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .figcaption > h2 {
   font-size: 1em;
 }
 
-/* line 110, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .expert-container {
   text-align: center;
-  padding: 0px;
-  padding-top: 40px;
+  padding: 40px 0 0;
 }
 
-/* line 116, ../scss/app.scss */
+/* line 97, ../scss/app.scss */
 .icon-links {
   float: right;
 }
 
-/* line 120, ../scss/app.scss */
+/* line 100, ../scss/app.scss */
 .fade {
-  /* background: rgba(221, 176, 82, .5);
-   -moz-transition: background .5s ease-out;
-    -webkit-transition: background .5s ease-out;
-    transition: background .5s ease-out; */
+ /* background: rgba(221, 176, 82, .5);
+-moz-transition: background .5s ease-out;
+ -webkit-transition: background .5s ease-out;
+ transition: background .5s ease-out; */
 }
 
-/* line 128, ../scss/app.scss */
+/* line 106, ../scss/app.scss */
 .fade:hover {
   /*   background: rgba(221, 176, 82, .5); */
   /*   opacity: .3; */
 }
 
-/* line 133, ../scss/app.scss */
+/* line 110, ../scss/app.scss */
 .great {
   color: #ddb052;
 }
 
-/* line 137, ../scss/app.scss */
+/* line 113, ../scss/app.scss */
 i:hover {
   color: #ddb052;
+}
+
+/* line 116, ../scss/app.scss */
+footer {
+  width: 100%;
+  height: 350px;
+  background: linear-gradient(RGBA(221, 176, 82, 1), RGBA(221, 176, 82, 1)), url(https://download.unsplash.com/photo-1421757295538-9c80958e75b0);
+  background-size: 100% 100%;
+  color: #F56469;
+  opacity: 1;
+}
+
+/* line 128, ../scss/app.scss */
+.social-links.li {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.6);
+}
+/* line 133, ../scss/app.scss */
+.social-links.li.social-link {
+  font-size: 1em;
+  border: 1px solid white;
+  margin: 0;
+  float: left;
+}
+/* line 138, ../scss/app.scss */
+.social-links.li.social-link:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+/* line 140, ../scss/app.scss */
+.social-links.li.social-link:hover a {
+  color: #222;
+}
+
+/* line 146, ../scss/app.scss */
+.social-link.a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 151, ../scss/app.scss */
+#instafeed.a {
+  line-height: 0;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+/* line 157, ../scss/app.scss */
+#instafeed {
+  width: 240%;
+  max-width: 2000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 163, ../scss/app.scss */
+.footer-links {
+  z-index: 3;
+  position: absolute;
+  width: 100%;
+  bottom: 70px;
+}
+/* line 168, ../scss/app.scss */
+.footer-links ul {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  margin: 120px px 0;
+}
+
+/* line 176, ../scss/app.scss */
+.footer-background {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: -320px;
+  height: 320px;
+}
+
+/* line 183, ../scss/app.scss */
+.footer-background:before, .footer-background:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 1;
+  /* FF3.6+ */
+  /* Chrome,Safari4+ */
+  background: -moz-linear-gradient(top, #222222 8%, rgba(34, 34, 34, 0.99) 9%, rgba(34, 34, 34, 0.7) 53%, rgba(34, 34, 34, 0.11) 97%, rgba(34, 34, 34, 0.11) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(8%, #222222), color-stop(9%, rgba(34, 34, 34, 0.99)), color-stop(53%, rgba(34, 34, 34, 0.7)), color-stop(97%, rgba(34, 34, 34, 0.11)), color-stop(100%, rgba(34, 34, 34, 0.11)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #222222 8%, rgba(34, 34, 34, 0.99) 9%, rgba(34, 34, 34, 0.7) 53%, rgba(34, 34, 34, 0.11) 97%, rgba(34, 34, 34, 0.11) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #222222 8%, rgba(34, 34, 34, 0.99) 9%, rgba(34, 34, 34, 0.7) 53%, rgba(34, 34, 34, 0.11) 97%, rgba(34, 34, 34, 0.11) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #222222 8%, rgba(34, 34, 34, 0.99) 9%, rgba(34, 34, 34, 0.7) 53%, rgba(34, 34, 34, 0.11) 97%, rgba(34, 34, 34, 0.11) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #222222 8%, rgba(34, 34, 34, 0.99) 9%, rgba(34, 34, 34, 0.7) 53%, rgba(34, 34, 34, 0.11) 97%, rgba(34, 34, 34, 0.11) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222222', endColorstr='#1c222222',GradientType=0 );
+  /* IE6-9 */
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 210, ../scss/app.scss */
+.footer-background:after {
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+/* line 214, ../scss/app.scss */
+#instafeed {
+  position: absolute;
+  left: 0;
+  top: 0;
+  -webkit-animation-name: back;
+  -webkit-animation-duration: 100s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes back {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -90%;
+  }
+  100% {
+    left: 20%;
+  }
+}
+/* line 237, ../scss/app.scss */
+ul.social-links {
+  font-size: 1.5em;
+}
+
+/* line 241, ../scss/app.scss */
+.footer-words {
+  color: white;
+  text-align: center;
 }
