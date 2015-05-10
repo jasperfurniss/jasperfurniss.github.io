@@ -266,6 +266,7 @@ em, i {
 	    font-size: 1em;
 	  }
 	}
+
 	@media only screen and (min-width: 40.063em)
 	h1 {
 	  font-size: 2.75rem;
