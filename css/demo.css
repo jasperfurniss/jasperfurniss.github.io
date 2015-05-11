@@ -206,3 +206,18 @@ li.social-link {
 position: relative;
 left: 14px;
 }
+
+@media only screen and (min-width: 400px)
+.my-name {
+  font-size: 1.4em;
+}
+
+h1 {
+font-size: 1.4em;
+margin: 0.67em 0;
+display: inline-block;
+}
+
+i.icon-mail {
+  line-height: 1.6;
+}
