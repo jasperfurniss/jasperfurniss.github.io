@@ -35,7 +35,7 @@ cursor: pointer; */
 
 .grid figure img {
 	position: relative;
-	display: block;
+/* 	display: block; */
 	min-height: 100%;
 	max-width: 100%;
 

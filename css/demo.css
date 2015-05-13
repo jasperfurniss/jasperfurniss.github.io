@@ -221,3 +221,13 @@ display: inline-block;
 i.icon-mail {
   line-height: 1.6;
 }
+
+img.tinier {
+  width: 22%;
+}
+
+span.tinier-span {
+  position: relative;
+  left: 30px;
+  top: 4px;
+}
