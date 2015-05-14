@@ -52,6 +52,7 @@ $block-grid-media-queries: true !default;
       display: block;
       height: auto;
       float: $default-float;
+      width: 100%; 
       @if $include-spacing {
         padding: 0 ($spacing/2) $spacing;
       }

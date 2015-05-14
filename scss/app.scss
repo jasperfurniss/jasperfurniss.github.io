@@ -1,7 +1,6 @@
 @import "settings";
 @import "foundation";
-/* @import "foundation/components/block-grid";
- */
+/* @import "bower_components/foundation/components/block-grid"; */
 $primaryfont: 'Droid Sans', sans-serif;
 body {
   /*   font-family: $primaryfont; */
@@ -243,7 +242,8 @@ ul.social-links {
   text-align: center;
 }
 
-@media only screen and (min-width: 400px)
+@media only screen and (min-width: 400px) and (max-width: 500px){
 h1 {
   font-size: 1.5em;
+}
 }
