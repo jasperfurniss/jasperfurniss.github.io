@@ -104,7 +104,7 @@ a:hover {
 /* line 433, ../bower_components/foundation/scss/foundation/components/_global.scss */
 img {
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 /* line 435, ../bower_components/foundation/scss/foundation/components/_global.scss */
