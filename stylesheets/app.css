@@ -8504,13 +8504,13 @@ h1 {
 /* line 65, ../scss/app.scss */
 .iconset {
   float: right;
-  padding: 1%;
+  /* padding: 1%; */
 }
 
 /* line 69, ../scss/app.scss */
 .build-container {
   text-align: center;
-  padding: 55px;
+  /*   padding: 55px; */
 }
 
 /* line 73, ../scss/app.scss */
