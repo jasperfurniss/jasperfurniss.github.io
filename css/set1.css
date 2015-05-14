@@ -20,7 +20,7 @@
 
 /* Common style */
 .grid figure {
-/* 	position: relative;
+position: relative;
 float: left;
 overflow: hidden;
 margin: 10px 1%;
@@ -30,7 +30,7 @@ max-height: 360px;
 width: 48%;
 background: #3085a3;
 text-align: center;
-cursor: pointer; */
+cursor: pointer;
 }
 
 .grid figure img {
