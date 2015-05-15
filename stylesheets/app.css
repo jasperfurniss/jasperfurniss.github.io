@@ -8753,11 +8753,11 @@ ul.social-links {
   /* line 264, ../scss/app.scss */
   .intro-text {
     color: #fff;
-    /* text-align: right; */
+    text-align: left;
     margin-top: 15%;
     margin-right: 75px;
     margin-top: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     font-size: 4em;
   }
 }
