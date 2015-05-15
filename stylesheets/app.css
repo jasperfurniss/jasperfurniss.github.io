@@ -6936,8 +6936,11 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
   line-height: 0;
 }
 
-/*     h1 { font-size: $h1-font-size - $h1-font-reduction; }
- */
+/* line 269, ../bower_components/foundation/scss/foundation/components/_type.scss */
+h1 {
+  font-size: 2.125rem;
+}
+
 /* line 270, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
   font-size: 1.6875rem;
@@ -8729,9 +8732,10 @@ ul.social-links {
   .iconset {
     text-align: center;
     padding: 0%;
+    display: none;
   }
 
-  /* line 253, ../scss/app.scss */
+  /* line 254, ../scss/app.scss */
   .header-title {
     text-align: center;
   }
