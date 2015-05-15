@@ -21,14 +21,14 @@
 /* Common style */
 .grid figure {
 position: relative;
-float: left;
+/* float: left; */
 overflow: hidden;
-margin: 10px 1%;
-min-width: 320px;
+/* margin: 10px 1%; */
+/* min-width: 320px;
 max-width: 480px;
-max-height: 360px;
-width: 48%;
-background: #3085a3;
+max-height: 360px; */
+/* width: 48%; */
+background: #fff;
 text-align: center;
 cursor: pointer;
 }
