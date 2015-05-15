@@ -8749,14 +8749,25 @@ ul.social-links {
   .build-header {
     font-size: 4em;
   }
+
+  /* line 264, ../scss/app.scss */
+  .intro-text {
+    color: #fff;
+    /* text-align: right; */
+    margin-top: 15%;
+    margin-right: 75px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 4em;
+  }
 }
-/* line 267, ../scss/app.scss */
+/* line 276, ../scss/app.scss */
 body {
   background: #fff;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-/* line 272, ../scss/app.scss */
+/* line 281, ../scss/app.scss */
 .logo-circle {
   margin: 0 auto;
   width: 80px;
@@ -8769,14 +8780,14 @@ body {
   color: white;
 }
 
-/* line 284, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 .logo-text {
   font-size: 26px;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #fff;
 }
 
-/* line 292, ../scss/app.scss */
+/* line 301, ../scss/app.scss */
 .jf {
   color: white;
   font-weight: normal;
