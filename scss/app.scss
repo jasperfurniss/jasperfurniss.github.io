@@ -13,6 +13,7 @@ body {
 li {
   list-style: none;
   display: inline-block;
+
 }
 .header {
   overflow: hidden;
@@ -244,6 +245,12 @@ ul.social-links {
 
 @media only screen and (min-width: 400px) and (max-width: 500px){
 h1 {
-  font-size: 1.5em;
+
+}
+.iconset {
+  text-align: center;
+}
+.header-title {
+  text-align: center;
 }
 }
