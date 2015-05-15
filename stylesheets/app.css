@@ -8759,15 +8759,16 @@ ul.social-links {
     margin-top: 30px;
     margin-left: 20px;
     font-size: 4em;
+    line-height: 1.3;
   }
 }
-/* line 276, ../scss/app.scss */
+/* line 277, ../scss/app.scss */
 body {
   background: #fff;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-/* line 281, ../scss/app.scss */
+/* line 282, ../scss/app.scss */
 .logo-circle {
   margin: 0 auto;
   width: 80px;
@@ -8780,14 +8781,14 @@ body {
   color: white;
 }
 
-/* line 293, ../scss/app.scss */
+/* line 294, ../scss/app.scss */
 .logo-text {
   font-size: 26px;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #fff;
 }
 
-/* line 301, ../scss/app.scss */
+/* line 302, ../scss/app.scss */
 .jf {
   color: white;
   font-weight: normal;
