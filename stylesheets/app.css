@@ -8724,7 +8724,7 @@ ul.social-links {
   text-align: center;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 500px) {
+@media only screen and (min-width: 300px) and (max-width: 500px) {
   /* line 248, ../scss/app.scss */
   .iconset {
     text-align: center;
