@@ -248,10 +248,45 @@ h1 {
 .iconset {
   text-align: center;
   padding: 0%;
-  display: none;
 
 }
 .header-title {
   text-align: center;
 }
+
+.ul-header {
+  text-align: center;
+  margin-left: 0;
+}
+}
+
+
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+.logo-circle {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background: #DDB052;
+  line-height: 85px;
+  border-radius: 100px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+}
+
+.logo-text {
+  font-size: 26px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #fff;
+
+  //text-shadow: -1px -1px 1px #fff, 1px 1px 1px #fff;
+}
+
+.jf {
+  color: white;
+  font-weight: normal;
 }

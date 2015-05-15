@@ -8732,11 +8732,47 @@ ul.social-links {
   .iconset {
     text-align: center;
     padding: 0%;
-    display: none;
   }
 
-  /* line 254, ../scss/app.scss */
+  /* line 253, ../scss/app.scss */
   .header-title {
     text-align: center;
   }
+
+  /* line 257, ../scss/app.scss */
+  .ul-header {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+/* line 264, ../scss/app.scss */
+body {
+  background: #fff;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
+
+/* line 269, ../scss/app.scss */
+.logo-circle {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background: #DDB052;
+  line-height: 85px;
+  border-radius: 100px;
+  text-align: center;
+  font-weight: normal;
+  color: white;
+}
+
+/* line 281, ../scss/app.scss */
+.logo-text {
+  font-size: 26px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  color: #fff;
+}
+
+/* line 289, ../scss/app.scss */
+.jf {
+  color: white;
+  font-weight: normal;
 }
