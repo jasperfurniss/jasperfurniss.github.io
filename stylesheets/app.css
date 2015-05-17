@@ -8461,13 +8461,13 @@ h1 {
 
 /* line 29, ../scss/app.scss */
 .parallax-background {
-  background: url("../images/crosandme.JPG") fixed;
+  background: url("../images/crosandme.JPG");
   height: 640px;
   background-repeat: no-repeat;
-  /*   -webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
+  background-size: cover;
   position: fixed;
   width: 100%;
   margin-top: 100px;
