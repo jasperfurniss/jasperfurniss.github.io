@@ -8464,10 +8464,10 @@ h1 {
   background: url("../images/crosandme.JPG") fixed;
   height: 640px;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
+  /*   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
   position: fixed;
   width: 100%;
   margin-top: 100px;
