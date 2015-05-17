@@ -111,18 +111,7 @@ i {
 i:hover {
   color: #ddb052;
 }
-footer {
-  width: 100%;
-  height: 350px;
-  background: linear-gradient(
-     RGBA(221, 176, 82, 1),
-     RGBA(221, 176, 82, 1)
-     ),
-  url(https://download.unsplash.com/photo-1421757295538-9c80958e75b0);
-  background-size: 100% 100%;
-  color: #F56469;
-  opacity: 1;
-}
+
 .social-links.li {
   list-style: none;
   text-align: center;
@@ -265,9 +254,8 @@ h1 {
 .intro-text {
   color: #fff;
   text-align: left;
-  margin-top: 15%;
   margin-right: 75px;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-left: 20px;
   font-size: 4em;
   line-height: 1.3;
@@ -296,6 +284,9 @@ position: relative;
 top: -50px;
 left: 102px;
 background-color: #DDB052;
+}
+.parallax-background {
+
 }
 
 }

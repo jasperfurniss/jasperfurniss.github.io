@@ -8578,47 +8578,37 @@ i:hover {
   color: #ddb052;
 }
 
-/* line 114, ../scss/app.scss */
-footer {
-  width: 100%;
-  height: 350px;
-  background: linear-gradient(RGBA(221, 176, 82, 1), RGBA(221, 176, 82, 1)), url(https://download.unsplash.com/photo-1421757295538-9c80958e75b0);
-  background-size: 100% 100%;
-  color: #F56469;
-  opacity: 1;
-}
-
-/* line 126, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .social-links.li {
   list-style: none;
   text-align: center;
   margin-bottom: 10px;
   color: rgba(255, 255, 255, 0.6);
 }
-/* line 131, ../scss/app.scss */
+/* line 120, ../scss/app.scss */
 .social-links.li.social-link {
   font-size: 1em;
   border: 1px solid white;
   margin: 0;
   float: left;
 }
-/* line 136, ../scss/app.scss */
+/* line 125, ../scss/app.scss */
 .social-links.li.social-link:hover {
   background-color: rgba(255, 255, 255, 0.9);
 }
-/* line 138, ../scss/app.scss */
+/* line 127, ../scss/app.scss */
 .social-links.li.social-link:hover a {
   color: #222;
 }
 
-/* line 144, ../scss/app.scss */
+/* line 133, ../scss/app.scss */
 .social-link.a {
   color: white;
   display: block;
   text-decoration: none;
 }
 
-/* line 149, ../scss/app.scss */
+/* line 138, ../scss/app.scss */
 #instafeed.a {
   line-height: 0;
   margin: 0;
@@ -8626,7 +8616,7 @@ footer {
   float: left;
 }
 
-/* line 155, ../scss/app.scss */
+/* line 144, ../scss/app.scss */
 #instafeed {
   width: 240%;
   max-width: 2000px;
@@ -8634,14 +8624,14 @@ footer {
   text-align: center;
 }
 
-/* line 161, ../scss/app.scss */
+/* line 150, ../scss/app.scss */
 .footer-links {
   z-index: 3;
   position: absolute;
   width: 100%;
   bottom: 70px;
 }
-/* line 166, ../scss/app.scss */
+/* line 155, ../scss/app.scss */
 .footer-links ul {
   width: 100%;
   margin: 0 auto;
@@ -8650,7 +8640,7 @@ footer {
   margin: 120px px 0;
 }
 
-/* line 174, ../scss/app.scss */
+/* line 163, ../scss/app.scss */
 .footer-background {
   width: 100%;
   overflow: hidden;
@@ -8660,7 +8650,7 @@ footer {
   background-color: black;
 }
 
-/* line 182, ../scss/app.scss */
+/* line 171, ../scss/app.scss */
 .footer-background:before, .footer-background:after {
   content: "";
   width: 100%;
@@ -8689,13 +8679,13 @@ footer {
   left: 0;
 }
 
-/* line 209, ../scss/app.scss */
+/* line 198, ../scss/app.scss */
 .footer-background:after {
   bottom: 0;
   transform: rotate(180deg);
 }
 
-/* line 213, ../scss/app.scss */
+/* line 202, ../scss/app.scss */
 #instafeed {
   position: absolute;
   left: 0;
@@ -8717,53 +8707,52 @@ footer {
     left: 20%;
   }
 }
-/* line 236, ../scss/app.scss */
+/* line 225, ../scss/app.scss */
 ul.social-links {
   font-size: 1.5em;
 }
 
-/* line 240, ../scss/app.scss */
+/* line 229, ../scss/app.scss */
 .footer-words {
   color: white;
   text-align: center;
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
-  /* line 249, ../scss/app.scss */
+  /* line 238, ../scss/app.scss */
   .iconset {
     text-align: center;
     padding: 0%;
   }
 
-  /* line 254, ../scss/app.scss */
+  /* line 243, ../scss/app.scss */
   .header-title {
     text-align: center;
   }
 
-  /* line 258, ../scss/app.scss */
+  /* line 247, ../scss/app.scss */
   .ul-header {
     text-align: center;
     margin-left: 0;
   }
 
-  /* line 262, ../scss/app.scss */
+  /* line 251, ../scss/app.scss */
   .build-header {
     font-size: 4em;
   }
 
-  /* line 265, ../scss/app.scss */
+  /* line 254, ../scss/app.scss */
   .intro-text {
     color: #fff;
     text-align: left;
-    margin-top: 15%;
     margin-right: 75px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 20px;
     font-size: 4em;
     line-height: 1.3;
   }
 
-  /* line 277, ../scss/app.scss */
+  /* line 265, ../scss/app.scss */
   .geometry {
     width: 100%;
     background-color: #DDB052;
@@ -8772,7 +8761,7 @@ ul.social-links {
     position: relative;
   }
 
-  /* line 285, ../scss/app.scss */
+  /* line 273, ../scss/app.scss */
   .lines {
     width: 50%;
     height: 3px;
@@ -8781,7 +8770,7 @@ ul.social-links {
     left: 40px;
   }
 
-  /* line 292, ../scss/app.scss */
+  /* line 280, ../scss/app.scss */
   .lines2 {
     width: 100%;
     height: 3px;
@@ -8791,13 +8780,13 @@ ul.social-links {
     background-color: #DDB052;
   }
 }
-/* line 304, ../scss/app.scss */
+/* line 295, ../scss/app.scss */
 body {
   background: #fff;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-/* line 309, ../scss/app.scss */
+/* line 300, ../scss/app.scss */
 .logo-circle {
   margin: 0 auto;
   width: 80px;
@@ -8810,14 +8799,14 @@ body {
   color: white;
 }
 
-/* line 321, ../scss/app.scss */
+/* line 312, ../scss/app.scss */
 .logo-text {
   font-size: 26px;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #fff;
 }
 
-/* line 329, ../scss/app.scss */
+/* line 320, ../scss/app.scss */
 .jf {
   color: white;
   font-weight: normal;
