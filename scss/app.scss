@@ -56,7 +56,7 @@ h1 {
 .icons {
   font-size: 2em;
   padding-right: 75px;
-  color: gray;
+  color: #ddb052;
   text-decoration: none;
   font-style: none;
   font-family: 'mfg_labs_iconsetregular';
@@ -108,7 +108,7 @@ i {
 .great {
   color: #ddb052;
 }
-i:hover {
+i {
   color: #ddb052;
 }
 
@@ -320,4 +320,33 @@ body {
 .jf {
   color: white;
   font-weight: normal;
+}
+
+.phone {
+  color: #ddb052;
+}
+
+h3>a {
+  color: #ddb052;
+  font-size: .7em;
+  display: inline;
+
+}
+h3 {
+  display: inline;
+  padding: 20px;
+}
+
+h3 {
+/*   display: inline-block;
+ */  padding: 0px;
+  /* margin-right: -15px; */
+  position: relative;
+  left: 110px;
+  padding-left: 10px;
+}
+
+.livecode {
+  position: absolute;
+  left: 200px;
 }
