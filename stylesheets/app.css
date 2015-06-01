@@ -8822,15 +8822,16 @@ h3 > a {
   color: #ddb052;
   font-size: .7em;
   display: inline;
+  z-index: 2;
 }
 
-/* line 335, ../scss/app.scss */
+/* line 336, ../scss/app.scss */
 h3 {
   display: inline;
   padding: 20px;
 }
 
-/* line 340, ../scss/app.scss */
+/* line 341, ../scss/app.scss */
 h3 {
   /*   display: inline-block;
    */
@@ -8841,7 +8842,7 @@ h3 {
   padding-left: 10px;
 }
 
-/* line 349, ../scss/app.scss */
+/* line 350, ../scss/app.scss */
 .livecode {
   position: absolute;
   left: 200px;
