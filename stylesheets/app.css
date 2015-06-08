@@ -6995,7 +6995,7 @@ i {
 /* line 293, ../bower_components/foundation/scss/foundation/components/_type.scss */
 strong,
 b {
-  font-weight: bold;
+  font-weight: 100;
   line-height: inherit;
 }
 
@@ -8770,7 +8770,7 @@ ul.social-links {
     left: 40px;
   }
 
-  /* line 280, ../scss/app.scss */
+  /* line 281, ../scss/app.scss */
   .lines2 {
     width: 100%;
     height: 3px;
@@ -8780,13 +8780,13 @@ ul.social-links {
     background-color: #DDB052;
   }
 }
-/* line 295, ../scss/app.scss */
+/* line 293, ../scss/app.scss */
 body {
   background: #fff;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 }
 
-/* line 300, ../scss/app.scss */
+/* line 298, ../scss/app.scss */
 .logo-circle {
   margin: 0 auto;
   width: 80px;
@@ -8799,25 +8799,25 @@ body {
   color: white;
 }
 
-/* line 312, ../scss/app.scss */
+/* line 310, ../scss/app.scss */
 .logo-text {
   font-size: 26px;
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #fff;
 }
 
-/* line 320, ../scss/app.scss */
+/* line 318, ../scss/app.scss */
 .jf {
   color: white;
   font-weight: normal;
 }
 
-/* line 325, ../scss/app.scss */
+/* line 323, ../scss/app.scss */
 .phone {
   color: #ddb052;
 }
 
-/* line 329, ../scss/app.scss */
+/* line 327, ../scss/app.scss */
 h3 > a {
   color: #ddb052;
   font-size: .7em;
@@ -8825,13 +8825,13 @@ h3 > a {
   z-index: 2;
 }
 
-/* line 336, ../scss/app.scss */
+/* line 334, ../scss/app.scss */
 h3 {
   display: inline;
   padding: 20px;
 }
 
-/* line 341, ../scss/app.scss */
+/* line 339, ../scss/app.scss */
 h3 {
   /*   display: inline-block;
    */
@@ -8842,8 +8842,20 @@ h3 {
   padding-left: 10px;
 }
 
-/* line 350, ../scss/app.scss */
+/* line 348, ../scss/app.scss */
 .livecode {
   position: absolute;
   left: 200px;
+}
+
+/* line 353, ../scss/app.scss */
+.strong {
+  font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+  /* line 358, ../scss/app.scss */
+  .parallax-content {
+    top: 110px;
+  }
 }

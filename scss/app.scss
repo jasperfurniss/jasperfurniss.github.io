@@ -277,7 +277,8 @@ h1 {
   top: 30px;
   left: 40px;
 }
-.lines2{
+
+.lines2 {
 width: 100%;
 height: 3px;
 position: relative;
@@ -285,12 +286,9 @@ top: -50px;
 left: 102px;
 background-color: #DDB052;
 }
-.parallax-background {
+
 
 }
-
-}
-
 
 body {
   background: #fff;
@@ -354,4 +352,10 @@ h3 {
 
 .strong {
   font-weight: 100;
+}
+
+@media screen and (max-width: 500px) {
+  .parallax-content {
+    top: 110px;
+  }
 }
