@@ -27,23 +27,23 @@ h1 {
   font-weight: 100;
 }
 .parallax-background {
-  background: url("../images/crosandme.JPG");
-  height: 640px;
+  background: url("http://i62.tinypic.com/r753b4.jpg");
+  height: 1500px;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
+  -webkit-background-size: contain;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   position: fixed;
   width: 100%;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 .intro-text {
   color: #fff;
   text-align: right;
   margin-top: 15%;
-  margin-right: 75px;
-  margin-top: 30px;
+  margin-right: 175px;
+  margin-top: 140px;
   font-size: 5em;
 }
 .parallax-content {
